@@ -10,10 +10,12 @@ python = "3.10.13"
 langchain = "^0.0.334"
 python-dotenv = "^1.0.0"
 openai = "^1.2.3"
+numexpr = "^2.8.7"
 
 
 [tool.poetry.group.dev.dependencies]
 ipykernel = "^6.26.0"
+pylint = "^3.0.2"
 
 [build-system]
 requires = ["poetry-core"]
